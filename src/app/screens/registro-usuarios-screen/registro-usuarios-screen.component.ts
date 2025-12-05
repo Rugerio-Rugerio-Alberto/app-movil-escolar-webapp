@@ -72,8 +72,6 @@ export class RegistroUsuariosScreenComponent implements OnInit {
       console.log("Rol detectado: ", this.rol);
     }
 
-
-
     //El if valida si existe un parámetro ID en la URL
     if(this.activatedRoute.snapshot.params['id'] != undefined){
       this.editar = true;
